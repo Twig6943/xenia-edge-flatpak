@@ -1,0 +1,10 @@
+[Desktop Entry]
+Categories=Game
+Comment=Experimental Xbox 360 emulator
+Exec=xenia_edge
+Icon=io.github.has207.xenia-edge
+Keywords=emulator;retro
+Name=Xenia Edge
+StartupNotify=true
+Terminal=false
+Type=Application
