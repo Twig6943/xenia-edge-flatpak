@@ -24,7 +24,7 @@ modules:
       append-path: /usr/lib/sdk/qt6/bin
       prepend-ld-library-path: /usr/lib/sdk/llvm20/lib
       env:
-        - VULKAN_SDK=placeholder
+        - VULKAN_SDK=placeholder # Use this to bypass some windows check that happens for some reason???
         - CMAKE_C_COMPILER=clang
         - CMAKE_CXX_COMPILER=clang++
         - CMAKE_LINKER=lld
