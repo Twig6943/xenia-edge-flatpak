@@ -1,7 +1,7 @@
 app-id: io.github.has207.xenia-edge
-runtime: org.freedesktop.Platform
-runtime-version: '25.08'
-sdk: org.freedesktop.Sdk
+runtime: org.kde.Platform
+runtime-version: '6.10'
+sdk: org.kde.Sdk
 command: io.github.has207.xenia-edge.sh
 
 sdk-extensions:
@@ -21,7 +21,7 @@ modules:
   - name: xenia-edge
     buildsystem: simple
     build-options:
-      append-path: /usr/lib/sdk/llvm20/bin
+      append-path: /usr/lib/sdk/llvm20/bin:/usr/lib/sdk/qt6/bin
       prepend-ld-library-path: /usr/lib/sdk/llvm20/lib
       env:
         - VULKAN_SDK=placeholder # Use this to bypass some windows check that happens for some reason???
